@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: linear-gradient(to bottom, rgb(223, 203, 203)90%, white  100%);
 }
 
 h1 {
@@ -14,11 +14,16 @@ h1 {
   max-width: 1120px;
   width: 95%;
   margin: 0 auto;
+  border-radius: 1rem;
+  background: rgb(255, 244, 244);
+  
 }
 
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  
+  
 }
 
 .cards__items {

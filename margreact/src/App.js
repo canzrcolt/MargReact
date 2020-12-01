@@ -3,24 +3,29 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import Photography from './components/pages/Photography';
+import Blogs from './components/pages/Blogs';
+import ContactUs from './components/pages/Contacts-Us';
 import Cooking from './components/pages/Cooking';
 import Footer from './components/Footer';
+
+
+
 
 function App() {
   return (
     <>
       <Router>
+        
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/photography' component={Photography} />
+          <Route path='/blogs' component={Blogs} />
+          <Route path='/contact-us' component={ContactUs} />
           <Route path='/cooking' component={Cooking} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );

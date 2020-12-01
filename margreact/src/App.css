@@ -6,10 +6,8 @@
 }
 
 
-.home,
-.services,
-.products,
-.sign-up {
+.home
+{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,16 +15,36 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.photography {
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+  width: 100%;
+  align-items: center;
+  padding: 4%;
+  border: black 2px solid
+
 }
 
-.products {
+.photography-header {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 10%;
+  border: 4px pink dotted;
+  display: flex;
+  
+}
+
+.photography-body {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  border: 4px pink dotted;
+}
+
+.blogs {
   background-image: url('/images/img-1.jpg');
   background-position: center;
   background-size: fill;
@@ -35,7 +53,7 @@
   font-size: 100px;
 }
 
-.sign-up {
+.contact-us {
   background-image: url('/images/img-8.jpg');
   background-position: center;
   background-size: cover;
